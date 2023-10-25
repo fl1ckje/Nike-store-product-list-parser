@@ -11,3 +11,4 @@ pip install -r requirements.txt
 ```sh
 python app.py
 ```
+Links will be saved in output_data directory inside xlsx file.
