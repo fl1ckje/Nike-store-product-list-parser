@@ -134,7 +134,4 @@ class WebParser():
 
     def all_elements_equal(self, list: list):
         return all(i == list[0] for i in list)
-    
 
-    def get_products_data_from_links(links, ):
-        pass
