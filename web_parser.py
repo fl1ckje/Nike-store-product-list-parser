@@ -60,7 +60,7 @@ class WebParser():
             products_links = self.get_category_products_links(df['Ссылка'][i])
             print(f"got {len(products_links)} links from category {df['Категория'][i]}")
             self.data_manager.write_data_to_xl(products_links, df['Категория'][i])
-    
+        self.driver.quit()
 
     def accept_cookies(self):
         '''
